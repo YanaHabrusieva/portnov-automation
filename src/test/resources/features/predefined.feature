@@ -20,6 +20,7 @@ Feature: Smoke steps
       Then I click on element using JavaScript with xpath "(//button[@id='uh-search-button'])"
       Then I wait for element with xpath "//a[text()='iPhone 11 - Apple']" to be present
       Then element with xpath "//a[text()='iPhone 11 - Apple']" should contain text "Apple"
+      Then I scroll to the element with xpath "<string>" with offset <number>
 
 
   
